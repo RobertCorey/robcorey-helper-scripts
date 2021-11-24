@@ -1,6 +1,10 @@
+/**
+ * rem-transform changes all the rem values in a directory to a new value
+ */
 const fs = require("fs");
-
+// the multiple to set the rem values too e.g MULTIPLIER=1.5, 1rem = 1.5rem
 const MULTIPLIER = 1.0;
+//The number of digits to round to
 const PRECISION = 1;
 
 //get all files in a directory and subdirectories with a certain extension
